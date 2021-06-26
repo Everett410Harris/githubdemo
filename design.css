@@ -1,0 +1,71 @@
+body {
+    background-image: url(
+        "https://images.unsplash.com/photo-1567360425618-1594206637d2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjY3fHxiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    );
+}
+
+
+#myDIV {
+    width: 500px;
+    height: 36px;
+    margin: 10px auto 10px auto;
+    background: blueviolet;
+    animation: mymove 10s infinite;
+  }
+  
+  @keyframes mymove {
+    from {background-color: blueviolet;}
+    to {background-color: red;}
+  }
+  h1 { 
+      text-align: center;
+      font-family: 'Arizonia';
+      font-size: 36px;
+  } 
+
+body {
+    background-image: url(
+        "https://images.unsplash.com/photo-1567360425618-1594206637d2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjY3fHxiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    );
+   
+
+}
+h2 {
+    color: purple;
+}
+
+p {
+    text-align: center;
+    color: aqua;
+    font-family: fantasy;
+    font-size: 100%;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  ul.topnav li {float: centered;}
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #111;}
+  
+  ul.topnav li a.active {background-color: #04AA6D;}
+  
+  ul.topnav li.right {float: right;}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
